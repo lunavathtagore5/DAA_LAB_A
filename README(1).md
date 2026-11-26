@@ -52,10 +52,10 @@ Conclusion
 
 The program demonstrates how Min-Heap and Max-Heap can be used to efficiently sort an array in ascending and descending order.
 
-# SUMMARY OF PRACT-4:iterative & recursive methods
+# PRACT-4:iterative & recursive methods
 In this practical, we learned how to find the factorial of a number using two different methods: iterative and recursive. In the iterative method, we use a loop to multiply the numbers from 1 to the given number. In the recursive method, the function calls itself with a smaller value until it reaches the base condition. Both methods give the same factorial result, but they work in different ways. CONCLUSION: From this practical, we understood the difference between iterative and recursive approaches for solving a problem. Both methods are useful for calculating factorials, and this practical helped us understand how loops and recursion can be used to solve the same problem. CONCLUSION: From this practical, we understood the difference between iterative and recursive approaches for solving a problem. Both methods ar
 
-practical-5: Knapsack Problem
+# practical-5: Knapsack Problem
 This project is a Python program that solves the 0/1 Knapsack Problem using Dynamic Programming. The program takes the number of items, their weights, values, and the maximum capacity of the knapsack as input. It then finds the maximum value that can be carried without exceeding the given capacity. The program also displays the selected items and the execution time. This project is simple and useful for understanding the basic concept of Dynamic Programming in Python.
 
 How to Run
@@ -70,7 +70,8 @@ Conclusion
 
 This project demonstrates how Dynamic Programming can be used to solve the 0/1 Knapsack Problem. It helps in finding the best combination of items while keeping the total weight within the given capacity. The project is simple and helpful for learning Python and Dynamic Programming.
 
-PRACTICAL-6 MATRIX CHAIN MULTIPLICATION
+# PRACTICAL-6 MATRIX CHAIN MULTIPLICATION
+
 Matrix Chain Multiplication is a Dynamic Programming problem that finds the most efficient way to multiply a sequence of matrices.
 
 The main objective is to determine the optimal order of matrix multiplication that minimizes the total number of scalar multiplications. The order of the matrices remains unchanged; only the placement of parentheses is optimized.
@@ -80,3 +81,31 @@ This project implements the Matrix Chain Multiplication algorithm using Python a
 
 # PRACTICAL 7:Coin Change Problem Using Dynamic Programming
 This project provides a Python solution to the Coin Change Problem using Dynamic Programming. The program determines the minimum number of coins required to make a given target amount from a set of available coin denominations.
+
+The algorithm builds a dynamic programming table to store the minimum coins needed for every amount from 0 to the target value. By reusing previously computed results, it efficiently finds the optimal solution and avoids redundant calculations.
+
+If the target amount can be formed, the program returns the minimum number of coins required. Otherwise, it returns -1 to indicate that no valid combination exists.
+
+Features
+Efficient Dynamic Programming approach
+Finds the minimum number of coins required
+Handles impossible cases by returning -1
+Simple and easy-to-understand Python implementation
+Complexity
+Time Complexity: O(n × amount)
+Space Complexity: O(amount)
+This project is useful for learning Dynamic Programming concepts, practicing algorithm design, and preparing for coding interviews.
+
+# PRACT8-(DAA)
+SUMMARY :
+
+Graph traversal is an important technique used to visit all the vertices of a graph systematically. DFS explores a graph deeply by visiting a vertex and then recursively visiting its unvisited neighbors. BFS explores the graph level by level using a queue data structure. Both DFS and BFS have a time complexity of O(V + E), where V is the number of vertices and E is the number of edges. These searching techniques are widely used in path finding, network analysis, and many other computer science applications.
+
+CONCLUSION :
+
+The graph traversal program successfully implements both DFS and BFS searching techniques using Python. DFS uses a depth-based approach, while BFS visits vertices level by level. Both methods efficiently traverse the vertices and edges of a graph. The program accepts user input, making it flexible for different graph structures and starting vertices. Thus, DFS and BFS are useful and fundamental techniques for solving various graph-based problems.
+# practical-9  PRIM's Algorithm
+Prim's Algorithm is a greedy algorithm used to find the Minimum Spanning Tree (MST) of a connected, weighted, undirected graph. It starts with an arbitrary vertex and repeatedly selects the minimum-weight edge that connects a visited vertex to an unvisited vertex without forming a cycle. This process continues until all vertices are included in the spanning tree, resulting in the minimum total edge weight. Prim's Algorithm is widely used in network design and optimization problems.
+
+# practical-10 KRUSKAL's Algorithm
+Kruskal's Algorithm is a greedy algorithm used to find the Minimum Spanning Tree (MST) of a weighted, undirected graph. It works by sorting all edges in ascending order of their weights and selecting the smallest edges one by one, ensuring that no cycle is formed. The process continues until the spanning tree contains exactly \(V-1\) edges, where \(V\) is the number of vertices. Kruskal's Algorithm is useful in network design and optimization problems where minimizing the total connection cost is important.
